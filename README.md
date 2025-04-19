@@ -30,6 +30,11 @@ wget -O se-install https://raw.githubusercontent.com/icoexist/softether-autoinst
 ```bash
 curl -o se-install https://raw.githubusercontent.com/icoexist/softether-autoinstall/master/centos/x64/se-install-centos.bash && chmod 770 se-install && ./se-install
 ```
+#### CentOS 9 (Currently depreciated, no longer in development)
+```bash
+curl -o se-install https://raw.githubusercontent.com/bitkanda/softether-autoinstall/refs/heads/master/centos/9/se-install-centos.bash && chmod 770 se-install && ./se-install
+```
+
 ## Open Ports for SoftEther VPN
 ### Ubuntu
 In terminal, execute the following: `ufw allow 443,1194,5555/tcp && ufw allow 500,1701,4500/udp`    
